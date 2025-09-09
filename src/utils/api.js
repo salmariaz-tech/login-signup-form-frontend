@@ -1,9 +1,14 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5050", // ✅ Make sure this matches your backend
+  baseURL: "https://login-signup-form-server-production.up.railway.app",
+  headers: {
+    "Content-Type": "application/json",
+  },
 });
 
 export default API;
+
+
 
 
