@@ -5,7 +5,7 @@ const API = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
-  withCredentials: true, // ✅ Required for CORS
+  withCredentials: true, // ✅ CORS ke liye zaruri
 });
 
 export default API;
